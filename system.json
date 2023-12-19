@@ -1,11 +1,16 @@
 {
-    "id": "animecampaign",
-    "title": "Epithet/Anime Campaign TTRPG",
-    "description": "An unofficial fanmade system based on JelloApocalypse's Epithet/Anime Campaign system.",
+    "id": "animecampaign_LC_edition",
+    "title": "Lost Cosmos System",
+    "description": "My changes to the AC foundry system by Holi, incorporating some QoL changes and some Lost Cosmos focused editions.",
     "authors": [
         {
             "name": "Holipop",
             "discord": "@holipop",
+            "flags": {}
+        },
+        {
+            "name": "zanzaKlaus",
+            "discord": "@zanzaklaus",
             "flags": {}
         }
     ],

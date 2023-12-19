@@ -3,6 +3,6 @@
         "types": ["Character"]
     },
     "Item": {
-        "types": ["Feature"]
+        "types": ["Feature","Status Effect"]
     }
 }
