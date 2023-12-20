@@ -45,4 +45,25 @@ export default class ACActor extends Actor {
         super._onCreateDescendantDocuments(parent, collection, documents, ...args);
     }
 
+    /** Overloads the base modifyTokenAttribute function so remove bar clamping. 
+     * @param {string} attribute
+     * @param {number} value
+     * @param {boolean} isDelta 
+     * @param {boolean} isBar 
+     */
+    async modifyTokenAttribute(attribute, value, isDelta=false, isBar=true) {
+        const current = foundry.utils.getProperty(this.system, attribute);
+    
+        // Determine the updates to make to the actor data
+        let updates;
+        if ( isBar ) {
+            if (isDelta) value = Number(current.value) + value; // YOU
+            updates = {[`system.${attribute}.value`]: value};
+        } else {
+            if ( isDelta ) value = Number(current) + value;
+            updates = {[`system.${attribute}`]: value};
+        }
+        const allowed = Hooks.call("modifyTokenAttribute", {attribute, value, isDelta, isBar}, updates);
+        return allowed !== false ? this.update(updates) : this;
+      }
 }
