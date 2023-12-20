@@ -26,7 +26,7 @@ export default class CharacterSheet extends ActorSheet {
         ];
 
         options.tabs = [
-            { navSelector: "[data-nav]", contentSelector: "[data-content]", initial: "biography" },
+            { navSelector: "[data-nav]", contentSelector: "[data-content]", initial: "kit" },
         ];
 
         return options;

@@ -45,7 +45,8 @@ export default class ACActor extends Actor {
         super._onCreateDescendantDocuments(parent, collection, documents, ...args);
     }
 
-    /** Overloads the base modifyTokenAttribute function so remove bar clamping. 
+    //Overloads the base modifyTokenAttribute function so remove bar clamping. 
+    /** Fires upon modifying a token attribute of an actor through the actor HUD.
      * @param {string} attribute
      * @param {number} value
      * @param {boolean} isDelta 
