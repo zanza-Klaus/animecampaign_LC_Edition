@@ -56,10 +56,6 @@ export default class CharacterData extends foundry.abstract.DataModel {
      */
     get classLevel () {
         const prof = this.proficiency.value;
-
-        if (prof >= 100) return "III";
-        else if (prof >= 60) return "II";
-        else if (prof >= 0) return "I";
-        return "";
+        return (1 + Math.floor(prof / 100));
     }
 }
