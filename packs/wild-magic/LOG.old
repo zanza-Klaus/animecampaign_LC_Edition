@@ -1,5 +1,11 @@
-2023/12/19-17:24:24.136 7adc Log #16: 0 ops saved to Table #17 OK
-2023/12/19-17:24:24.136 7adc Archiving C:\Users\darka\AppData\Local\FoundryVTT\Data\systems\animecampaign_lc_edition\packs\wild-magic/000016.log: OK
-2023/12/19-17:24:24.137 7adc Table #5: 1005 entries OK
-2023/12/19-17:24:24.144 7adc Archiving C:\Users\darka\AppData\Local\FoundryVTT\Data\systems\animecampaign_lc_edition\packs\wild-magic/MANIFEST-000014: OK
-2023/12/19-17:24:24.152 7adc **** Repaired leveldb C:\Users\darka\AppData\Local\FoundryVTT\Data\systems\animecampaign_lc_edition\packs\wild-magic; recovered 1 files; 201667 bytes. Some data may have been lost. ****
+2023/12/19-17:24:24.167 7adc Delete type=3 #1
+2023/12/19-18:55:53.149 6dcc Level-0 table #21: started
+2023/12/19-18:55:53.149 6dcc Level-0 table #21: 0 bytes OK
+2023/12/19-18:55:53.154 6dcc Delete type=0 #19
+2023/12/19-18:55:53.154 6dcc Manual compaction at level-0 from '!tables!EE49IqzY4dbXuD71' @ 72057594037927935 : 1 .. '!tables.results!EE49IqzY4dbXuD71.zyzpBgH39hdqrH1U' @ 0 : 0; will stop at '!tables.results!EE49IqzY4dbXuD71.zyzpBgH39hdqrH1U' @ 259 : 1
+2023/12/19-18:55:53.154 6dcc Compacting 1@0 + 0@1 files
+2023/12/19-18:55:53.172 6dcc Generated table #22@0: 1005 keys, 201667 bytes
+2023/12/19-18:55:53.172 6dcc Compacted 1@0 + 0@1 files => 201667 bytes
+2023/12/19-18:55:53.181 6dcc compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/19-18:55:53.181 6dcc Delete type=2 #5
+2023/12/19-18:55:53.205 6dcc Manual compaction at level-0 from '!tables.results!EE49IqzY4dbXuD71.zyzpBgH39hdqrH1U' @ 259 : 1 .. '!tables.results!EE49IqzY4dbXuD71.zyzpBgH39hdqrH1U' @ 0 : 0; will stop at (end)

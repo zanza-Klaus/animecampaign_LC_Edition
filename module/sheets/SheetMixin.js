@@ -152,7 +152,7 @@ export const SheetMixin = {
                 
                 const { collapsed } = ((data)
                     ? getProperty(sheet.object.system, key)
-                    : sheet.object.getFlag('animecampaign', key)) 
+                    : sheet.object.getFlag('animecampaign_lc_edition', key)) 
                     ?? { collapsed: hide }
 
                 if (!collapsed) {
@@ -181,7 +181,7 @@ export const SheetMixin = {
 
                 const { collapsed } = ((data)
                     ? getProperty(sheet.object.system, key)
-                    : sheet.object.getFlag('animecampaign', key)) 
+                    : sheet.object.getFlag('animecampaign_lc_edition', key)) 
                     ?? { collapsed: hide }
                 let update = { collapsed: !collapsed };
 
@@ -198,7 +198,7 @@ export const SheetMixin = {
                     }
                     return sheet.object.update({ [`system.${key}`]: update });
                 }
-                return sheet.object.setFlag('animecampaign', key, update)
+                return sheet.object.setFlag('animecampaign_lc_edition', key, update)
             })
         }()
 

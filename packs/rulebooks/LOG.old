@@ -1,5 +1,11 @@
-2023/12/19-17:24:24.175 7928 Log #16: 0 ops saved to Table #17 OK
-2023/12/19-17:24:24.175 7928 Archiving C:\Users\darka\AppData\Local\FoundryVTT\Data\systems\animecampaign_lc_edition\packs\rulebooks/000016.log: OK
-2023/12/19-17:24:24.175 7928 Table #5: 12 entries OK
-2023/12/19-17:24:24.182 7928 Archiving C:\Users\darka\AppData\Local\FoundryVTT\Data\systems\animecampaign_lc_edition\packs\rulebooks/MANIFEST-000014: OK
-2023/12/19-17:24:24.190 7928 **** Repaired leveldb C:\Users\darka\AppData\Local\FoundryVTT\Data\systems\animecampaign_lc_edition\packs\rulebooks; recovered 1 files; 57907 bytes. Some data may have been lost. ****
+2023/12/19-17:24:24.205 7928 Delete type=3 #1
+2023/12/19-18:55:53.184 6dcc Level-0 table #21: started
+2023/12/19-18:55:53.184 6dcc Level-0 table #21: 0 bytes OK
+2023/12/19-18:55:53.195 6dcc Delete type=0 #19
+2023/12/19-18:55:53.205 6dcc Manual compaction at level-0 from '!journal!3SZhcWjueldWFPFt' @ 72057594037927935 : 1 .. '!journal.pages!7574Yt7d0OCFZvAv.xLvQpoKjKLo4DN4D' @ 0 : 0; will stop at '!journal.pages!7574Yt7d0OCFZvAv.xLvQpoKjKLo4DN4D' @ 7 : 1
+2023/12/19-18:55:53.205 6dcc Compacting 1@0 + 0@1 files
+2023/12/19-18:55:53.234 6dcc Generated table #22@0: 12 keys, 57907 bytes
+2023/12/19-18:55:53.234 6dcc Compacted 1@0 + 0@1 files => 57907 bytes
+2023/12/19-18:55:53.247 6dcc compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/19-18:55:53.247 6dcc Delete type=2 #5
+2023/12/19-18:55:53.254 6dcc Manual compaction at level-0 from '!journal.pages!7574Yt7d0OCFZvAv.xLvQpoKjKLo4DN4D' @ 7 : 1 .. '!journal.pages!7574Yt7d0OCFZvAv.xLvQpoKjKLo4DN4D' @ 0 : 0; will stop at (end)
